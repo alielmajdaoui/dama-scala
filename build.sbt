@@ -8,7 +8,7 @@ val catsVersion = "2.6.1"
 val catsEffectVersion = "2.5.1"
 val circeVersion = "0.13.0"
 val http4sVersion = "0.21.22"
-val log4catsVersion      = "1.1.1"
+val log4catsVersion = "1.1.1"
 val logbackVersion = "1.2.3"
 
 libraryDependencies ++= Seq(
