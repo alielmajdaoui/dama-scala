@@ -1,7 +1,8 @@
 package ali.el.majdaoui
 
+import ali.el.majdaoui.effects.SharedState
+import ali.el.majdaoui.infrastructure.http.{HttpAppApi, HttpServer}
 import ali.el.majdaoui.infrastructure.websocket.WebSocketOutput
-import ali.el.majdaoui.infrastructure.{HttpAppApi, HttpServer, SharedState}
 import cats.effect.{ExitCode, IO, IOApp}
 import fs2.concurrent.Topic
 import io.chrisdavenport.log4cats.{Logger, SelfAwareStructuredLogger}

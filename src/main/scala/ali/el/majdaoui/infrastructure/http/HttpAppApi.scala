@@ -1,8 +1,9 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.infrastructure.http
 
-import ali.el.majdaoui.infrastructure.websocket.WebSocketOutput
-import cats.implicits._
+import ali.el.majdaoui.effects.State
+import ali.el.majdaoui.infrastructure.websocket.{WebSocketOutput, WebSocketRoutes}
 import cats.effect.{ConcurrentEffect, Sync, Timer}
+import cats.implicits._
 import fs2.concurrent.Topic
 import io.chrisdavenport.log4cats.Logger
 import org.http4s.HttpApp

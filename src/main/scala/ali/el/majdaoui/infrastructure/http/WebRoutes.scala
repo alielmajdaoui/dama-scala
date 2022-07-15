@@ -1,8 +1,9 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.infrastructure.http
 
+import ali.el.majdaoui.effects.State
 import cats.effect.Sync
-import cats.{Defer, Monad}
 import cats.implicits._
+import cats.{Defer, Monad}
 import org.http4s.HttpRoutes
 import org.http4s.dsl.Http4sDsl
 import org.http4s.server.Router

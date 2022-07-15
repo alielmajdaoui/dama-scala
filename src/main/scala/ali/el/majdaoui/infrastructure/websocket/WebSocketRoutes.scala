@@ -1,14 +1,14 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.infrastructure.websocket
 
-import ali.el.majdaoui.infrastructure.websocket.{WebSocketInput, WebSocketOutput}
+import ali.el.majdaoui.effects.State
 import cats.effect.{ConcurrentEffect, Sync}
-import cats.{Defer, Monad}
 import cats.implicits._
+import cats.{Defer, Monad}
 import fs2.concurrent.Topic
 import fs2.{Pipe, Stream}
 import io.chrisdavenport.log4cats.Logger
-import org.http4s.dsl.Http4sDsl
 import org.http4s.HttpRoutes
+import org.http4s.dsl.Http4sDsl
 import org.http4s.server.Router
 import org.http4s.server.websocket.WebSocketBuilder
 import org.http4s.websocket.WebSocketFrame

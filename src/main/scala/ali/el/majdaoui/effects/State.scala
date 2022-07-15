@@ -1,8 +1,8 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.effects
 
-import cats.implicits._
 import cats.effect.Sync
 import cats.effect.concurrent.Ref
+import cats.implicits._
 
 trait State[F[_]] {
   def addUser(id: String): F[String]

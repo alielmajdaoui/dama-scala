@@ -1,4 +1,4 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.infrastructure.http
 
 import cats.effect.{ConcurrentEffect, Sync, Timer}
 import org.http4s.HttpApp

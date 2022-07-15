@@ -1,4 +1,4 @@
-package ali.el.majdaoui.infrastructure
+package ali.el.majdaoui.effects
 
 import cats.effect.Sync
 
